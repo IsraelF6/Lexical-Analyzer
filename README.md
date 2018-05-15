@@ -7,5 +7,7 @@ a lexical analyzer for the CALC language.
 test the scanner on linprog like so:
 
 $ lex lexer.l
+
 $ gcc driver.c –lfl
-$ ./a.out < p0.cal
+
+$ ./a.out < p1.cal
